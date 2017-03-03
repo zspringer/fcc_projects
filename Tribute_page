@@ -1,0 +1,74 @@
+<link href="css/styles.css?v=1.0" rel="stylesheet" type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" type="text/css">
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>FCC Tribute Page</title>
+			<style>
+				.headerpart{
+				background-color:#a2a2a2;
+				color:black;
+				font-type:Monospace;
+				padding-bottom:20px;
+			}
+				.headerimage{
+				border-style:solid;
+				border-color:black;
+				border-width:10px;
+			}
+
+				.name {
+				font-size:60px;
+				-webkit-animation-duration: 3s;
+			}
+
+				.coach{
+				  -webkit-animation-duration: 3s;
+				  -webkit-animation-delay: 2s;
+			}
+
+				.accomplishments{
+				  padding-top:20px;
+			}
+
+				.end {
+				  color: green;
+				  -webkit-animation-iteration-count: infinite;
+			}
+			</style>
+	</head>
+<body>
+<div class="container-fluid headerpart">
+  <h1 class="text-center name animated flash">Julie Springer</h1>
+  <h2 class="coach text-center animated rubberBand"><em><strong>Agile Coach Extraordinare</em></strong></h2>
+<center><img src="http://www.empoweragilecoaching.com/wp-content/uploads/2015/03/Headshotsm-1.jpg" class="img-responsive img-circle headerimage" width=50%></center>
+</div>
+  <div class="row">
+    <div class="col"></div>
+    <div class="col accomplishments"><text-center><strong>
+      Accomplishments in 2016-2017</strong></center>
+      <ul>
+        <li>Co-Founded <em>Empower Agile</em> November of 2016</li>
+        <li>Champion of personal development</li>
+        <li>Founded website</li>
+        <li>Created Personal Development Meetup Group</li>
+        <li>Inspiration to all</li>
+			 </ul>
+    </div>
+    <div class="col"></div>
+</div>
+<div class="row">
+    <div class="col"></div>
+    <div class="col"><text-center><strong>
+      More about Empower Agile?</strong></center>
+      <ul>
+        <li>Visit the official website - <a href="http://www.empoweragilecoaching.com/" <target="_blank">Empower Agile</a>.</li>
+      </ul>
+    </div>
+    <div class="col"></div>
+</div>
+<p class="end text-center animated pulse">Thanks for visiting!</p>
+  </body>
+  </html>
